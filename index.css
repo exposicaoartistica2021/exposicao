@@ -1,0 +1,584 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    
+}
+
+a,.titulo,.logo{
+    letter-spacing: 3px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;/*alinhaento horizontal esquerda-direita*/
+    width: 100%;
+    padding: 25px 0;/*espaçamento superior e inferior*/
+    background: #1b1b1b;
+/*    position: fixed;*/
+}
+
+.content{
+    width: 100%;
+    display: flex;
+    margin: auto;/*deixar automatico para as pro-
+    priedades justyfui e align fazerem efeito*/
+    padding: 0 30px;/*espaçamento das laterais*/
+    justify-content: center;
+    align-items: center;/*alinhamento vertical cima-baixo*/
+    /*background-color: blue;*/
+    
+
+}
+
+.logo{
+    text-align: center;
+}
+
+.logo p{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.banner{
+    /*aqui não podemos usar o height, porque não irá
+    ficar responsivo, pois já estaremos definindo uma altu*/
+    display: flex;
+    background: #000;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titulo{
+    color: #fff;
+    font-weight: 600;
+    font-size: 45px;
+    width: 40%;
+    padding-left: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.content-2{
+    width: 1250px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-2 p{
+    font-weight: 600;
+}
+
+.about{
+    padding: 40px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;/*vertical*/
+    justify-content: center;/*horizontal*/
+}
+
+.titulo-2{
+    font-size: 35px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.about p{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.alerta{
+    display: flex;
+    padding-top: 100px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    background-color: #eb4949;
+    border: #d41e1e 2px double;
+    border-radius: 12px;
+}
+
+.container-alerta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.container-alerta img{
+    margin-top: -100px;
+}
+
+.texto-alerta {
+    padding-left: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.img-txt{
+    align-items: center;
+    display: flex;
+    
+
+}
+
+
+.img-txt img{
+    padding-left: 10px;
+}
+
+.img-txt p{
+    padding-left: 20px;
+    flex-wrap: wrap;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#img3{
+    width: 511px;
+    height: 524px;
+}
+/*MODIFICA O TITUTLO DA IMAGEM 4*/
+.txt-img4 p:nth-child(1){
+    padding-left: 20px;
+    flex-wrap: wrap;
+    font-size: 60px;
+    font-weight: 600;
+}
+/*MODIFICA A DESCRIÇÃO DA IMAGEM 4*/
+.txt-img4 p:nth-child(2){
+    padding-left: 20px;
+    flex-wrap: wrap;
+    font-size: 40px;
+    font-weight: 600;
+}
+/*=====MODIFICA A IMAGEM 4*/
+#img4{
+    width: 820px;
+    height: 880px;
+}
+
+#div-img-5{
+    justify-content: center;/*horizontal*/
+    align-items: center/*vertical*/;
+}
+
+#div-img-58910{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    flex: wrap;
+
+}
+
+#div-img-58910 div{
+    padding-left: 100px;
+}
+
+#img5{
+    width: 480px;
+    height: 480px;
+}
+#img8{
+    width: 480px;
+    height: 480px;
+}
+#img9{
+    width: 480px;
+    height: 480px;
+}
+#img10{
+    width: 480px;
+    height: 480px;
+}
+
+
+#divimg6{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+#divimg7{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#titulo-img7{
+    font-size: 60px;
+    font-weight: 600;
+}
+
+#img7{
+    width: 999px;
+    height: 999px;
+
+}
+
+
+#divimg11{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#divimg12{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#divimg13{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#titulo-img13{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+
+#divimg14{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#divimg15{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#img15{
+    width: 780px;
+    height: 780px;
+}
+
+
+#divimg1617{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#img16{
+    width: 580px;
+    height: 1080px;
+    
+}
+#img17{
+    width: 580px;
+    height: 1080px;
+}
+
+
+#divimg19{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#img19{
+    width: 1080px;
+    height: 1080px;
+}
+
+
+#divimg20{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#img20{
+    width: 980px;
+    height: 980px;
+    
+}
+
+#divimg2122{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#img21{
+    width: 580px;
+    height: 1080px;
+    
+}
+#img22{
+    width: 580px;
+    height: 1080px;
+}
+
+
+#divimg23{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#img23{
+    width: 1080px;
+    height: 1080px;
+    
+}
+
+#divimg24{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#img24{
+    height: 1080px;
+    
+}
+
+#divimg25{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#img25{
+    width: 1080px;
+    height: 1080px;
+    
+}
+
+#img26{
+    width: 780px;
+    height: 780px;
+}
+
+#divimg26{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#divimg26 p{
+    font-size: 20px;
+    font-weight: 600px;
+}
+
+
+#img27{
+    width: 780px;
+    height: 780px;
+}
+
+#divimg27{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#divimg27 p{
+    font-size: 20px;
+    font-weight: 600px;
+}
+
+
+#divimg28{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#img28{
+    width: 1080px;
+    height: 1080px;
+    
+}
+
+
+#divimg29{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#img29{
+    width: 1080px;
+    height: 1080px;
+    
+}
+
+
+.titulo-2-3anos{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.titulo-2-3anos p{
+    font-size: 32px;
+    font-weight: 600px;
+}
+
+.video{
+    width: 100%;
+}
+
+.container-video1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.container-video2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.container-video3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.video45789{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+    
+}
+
+.container-video45,.container-video78,.container-video9{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.container-video6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.container-video10{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.container-video11{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.container-video12{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.container-video13{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.container-video14{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.container-video15{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+video{
+    padding:0px 10px 10px 0px;
+}
+
+
+footer{
+    width: 100%;
+    margin-top: 40px;
+    justify-content: center;/*horizontal*/
+    align-items: center;/*vertical*/
+    display: flex;
+    background-color: #3c3d3d;
+    color: #fff;
+}
+
+.copyright{
+    text-align: center;
+    
+    font-size: 20px;
+}
